@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 from car import Car
 
 
-class Engine(ABC):
+class Engine(Car):
     def __init__(self, engine):
         self.engine = engine
 
@@ -11,3 +11,5 @@ class Engine(ABC):
             return True
         else:
             return False
+        
+    

@@ -1,7 +1,6 @@
 from abc import ABC
 
-from car import Car
-from car import Engine
+from engine.engine import Engine
 
 class WilloughbyEngine(Engine, ABC):
     def __init__(self, current_mileage, last_service_mileage):

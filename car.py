@@ -5,13 +5,11 @@ class Car(ABC):
         self.engine = engine
         self.battery = battery
 
-    def car_needs_service(self):
+    def needs_service(self):
         if self.engine or self.battery:
             return True
         else:
             return False
 
-    @abstractmethod
-    def needs_service(self):
-        pass
+   
 

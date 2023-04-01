@@ -1,7 +1,6 @@
 from datetime import datetime
 
-from car import Car
-from car import Battery
+from battery.battery import Battery
 
 class SpindlerBatttery():
     def __init__(self, last_service_date):
